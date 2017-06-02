@@ -1,0 +1,26 @@
+fieldset {
+	
+    font-family: sans-serif;
+    border: 3px solid #2594ca;
+    background: #fff;
+    border-radius: 5px;
+    padding: 15px;
+	  display: block;
+    -webkit-margin-start: 2px;
+    -webkit-margin-end: 2px;
+    -webkit-padding-before: 0.35em;
+    -webkit-padding-start: 0.75em;
+    -webkit-padding-end: 0.75em;
+    -webkit-padding-after: 0.625em;
+    min-width: -webkit-min-content;
+  
+}
+
+fieldset legend {
+    background: #2594ca;
+    color: #fff;
+    padding: 5px 10px ;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-left: 20px;
+}

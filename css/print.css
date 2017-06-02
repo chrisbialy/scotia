@@ -1,0 +1,4 @@
+@media print {
+  /* style sheet for print goes here */
+  .hide-from-printer{  display:none; }
+}

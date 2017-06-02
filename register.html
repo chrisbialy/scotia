@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Register User</title>
+
+	<!--[if (lte IE 8)&!(IEMobile)]>
+		<script>
+		<script src="js/iefix.js"></script>
+		</script>
+		<link rel="stylesheet" type="text/css" href="css/ieold.css" />
+		<![endif]-->
+		
+		
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Outing Travel Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<!-- css files -->
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<link href="css/select_login.css" rel="stylesheet" type="text/css" media="all" />
+<!-- /css files -->
+<!-- font files -->
+<link href='//fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+<!-- /font files -->
+<!-- js files -->
+<script src="js/modernizr.custom.js"></script>
+<!-- /js files -->
+
+<link rel="stylesheet" type="text/css" href="xres/css/style.css" />
+<link rel="icon" type="image/png" href="xres/images/favicon.png" />
+<!--[if IE 6]><style type="text/css"> * html img { behavior: url("xres/iepngfix.htc") }</style><![endif]-->
+<script type="text/javascript" src="xres/js/saslideshow.js"></script>
+<script type="text/javascript" src="xres/js/slideshow.js"></script>
+<script src="js/jquery-1.5.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="vallenato/vallenato.js" type="text/javascript" charset="utf-8"></script>
+<link rel="stylesheet" href="vallenato/vallenato.css" type="text/css" media="screen" charset="utf-8">
+
+
+
+</head >
+<body>
+
+
+
+
+<!-- Register Section -->
+<section class="about-us " id="book">
+	<h3 class="text-center ">Register</h3>
+	<p class="text-center ">Lorem Ipsum  release of Letraset shee ....</p>
+	<div class=" container ">
+		<div class=" row ">
+		
+			<div class="col-lg-6 col-md-6 col-sm-6   " >
+<!-- Register User -->
+		<div class="accordion-content" style="margin-bottom: 15px; ">
+			<form id="registeruser" name="registeruser" method="post" action="register.php">
+				<fieldset><legend>Registration Form</legend>
+				<label for="username"></label><input type="text" placeholder="Username" id="username" name="username" required size="15" class="" /><span id="usernameFb"></span><br />
+				<br>
+				<label for="firstname"></label><input type="text"  placeholder="Firstname" id="firstname" name="firstname" required size="15" class=""  /><span id="firstnameFb"></span><br />
+				<br>
+				<label for="surname"></label><input type="text"  placeholder="Surname" id="surname" name="surname" required size="15" class=""  /><span id="surnameFb"></span><br />
+				<br>
+				<label for="emailadd"></label><input type="email" placeholder="Email"   id="emailadd" name="emailadd" required size="30" class=""  /><span id="emailFb"></span><br />
+	
+				<!--<label for="dob">Date of Birth (YYYY-MM-DD) : </label><input type="text" id="dob" name="dob" required size="10" /><br /> -->
+
+				<p>Date of Birth</p>
+				<label class="datelabel" for="dayob">Day: </label><select name="dayob" style="max-width:10%;" id="dayob"></select>
+				<label class="datelabel" for="monthob">Month: </label>
+				<select name="monthob" style="max-width:15%;" id="monthob">
+					<option value="1">January</option>
+					<option value="2">February</option>
+					<option value="3">March</option>
+					<option value="4">April</option>
+					<option value="5">May</option>
+					<option value="6">June</option>
+					<option value="7">July</option>
+					<option value="8">August</option>
+					<option value="9">September</option>
+					<option value="10">October</option>
+					<option value="11">November</option>
+					<option value="12">December</option>
+				</select>
+				<label class="datelabel" for="yearob">Year: </label><select name="yearob" style="max-width:10%;" id="yearob"></select>
+				<span id="ageFb"></span>		
+			<br>
+			<br>
+			<label for="userpass"></label><input type="password" placeholder="Password" id="userpass" name="userpass" required size="15" class=""  /><span id="userpassFb"></span><br />
+			<!--<label for="passstrresult">Strength</label><div id="passstrresult" style="height:20px;display:inline-block;margin-left:15px;"></div><br /> -->
+			<br>
+			<label for="secondpass"></label><input type="password" placeholder="Password"  id="secondpass" name="secondpass" required size="15" class=""  /><span id="secondpassFb"></span><br />
+			<br>
+			<label for="tnc">I agree to the Terms and Conditions</label><input type="checkbox" name="tnc" id="tnc" required /><span id="tncFb"></span><br />
+			<br>
+			 <a href="login_admin.php"class="button button-primary "><span>Admin</span></a>
+			 <a href="login_user.php"class="button button-primary "><span>User</span></a>
+			<button type="reset">Reset</button><button type="submit">Register</button>
+
+			</form>
+			</div>			
+			</div>
+		
+			<div class="col-lg-6 col-md-6 col-sm-6">
+				<div class="about-info">
+					<img src="images/logo.jpg" alt="about" class="img-responsive ">
+				</div>
+			</div>
+		</div>
+		
+	</div>
+</section>
+<!-- /Register Section -->
+</body>
+ <script src="js/functions.js"></script>
+  <script src="js/register.js"></script>
+  <script>
+document.onreadystatechange = function(){
+	if(document.readyState=="complete") {
+		prepareRegister();
+	}
+}
+</script>
+</html>

@@ -1,0 +1,160 @@
+
+body{
+font-family:"Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+}
+form, button{border:0; margin:0; padding:0;
+}
+hr {
+	height:1px; 
+	border:none; 
+	color:#000; 
+	background-color:#000; 
+	width:60%; 
+	text-align:left; 
+	margin: 0 auto 0 0;
+}
+
+	.verticalLine {
+    border-left: thick solid #323299;
+}
+
+
+
+
+h1 {  font-family: times, Times New Roman, times-roman, georgia, serif;
+font-size: 48px;
+font-style: italic;
+line-height: 40px;
+letter-spacing: -1px;
+color: #111;
+font-weight: 100; 
+margin: 0 0 30px; 
+text-align: left; 
+padding-top:40px; 
+margin-left:20px;
+}
+
+h2 
+{ color: #111; font-family: 'Helvetica Neue', sans-serif; font-size: 25px; font-weight: bold; letter-spacing: -1px; line-height: 1; text-align: left; margin-left:20px; 
+}
+.right_h2
+{ color: #111; font-family: 'Helvetica Neue', sans-serif; font-size: 25px; font-weight: bold; letter-spacing: -1px; line-height: 1; text-align: right; margin-right:20px; 
+}
+
+.right_p
+{
+font-size:16px;
+color:#111;
+margin-right:20px;
+text-align: right; 
+line-height: 80%;
+}
+
+.right_h4
+{
+font-weight: bold;
+font-size:20px;
+color:#111;
+margin-right:20px;
+text-align: right; 
+line-height: 80%;
+}
+
+
+.middle_p
+{
+font-size:16px;
+color:#111;
+margin-right:100px;
+text-align: left; 
+line-height: 80%;
+}
+
+button
+{
+	height: 26px;
+    background-color: #2594ca;
+    color: white;
+    margin-left: 4px;
+    width: 78px;
+    padding: 5px;
+	text-decoration:none;
+}
+.spacer{clear:both; height:1px;}
+/* ----------- My Form ----------- */
+.myform{
+margin:0 auto;
+width:227px;
+padding:14px;
+}
+
+/* ----------- stylized ----------- */
+#stylized{
+border:solid 2px #b7ddf2;
+background:#ebf4fb;
+}
+
+p {
+font-size:16px;
+color:#111;
+margin-left:20px;
+text-align: left; 
+line-height: 80%;
+}
+
+
+
+#stylized label{
+display:block;
+font-weight:bold;
+text-align:right;
+width:140px;
+float:left;
+}
+#stylized .small{
+color:#666666;
+display:block;
+font-size:11px;
+font-weight:normal;
+text-align:right;
+width:140px;
+margin-left: 51px;
+}
+#stylized input{
+float:left;
+font-size:12px;
+padding:4px 2px;
+border:solid 1px #aacfe4;
+width:200px;
+margin:2px 0 20px 10px;
+}
+#stylized button{
+clear:both;
+margin-left:54px;
+width:125px;
+height:31px;
+background:##2594ca;
+text-align:center;
+line-height:23px;
+color:#FFFFFF;
+font-size:11px;
+font-weight:bold;
+}
+h4
+{
+	margin-left:14px;
+}
+h5
+{
+	font-size:15px;
+}
+a.button {
+    height: 34px;
+    background-color: #2594ca;
+    color: white;
+    margin-left: 4px;
+    width: 116px;
+    padding: 5px;
+	text-decoration:none;
+}

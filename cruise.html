@@ -1,0 +1,64 @@
+<html>
+<head>
+<title>Cruise</title>
+<script>
+function showUser(str) {
+    if (str == "") {
+        document.getElementById("txtHint").innerHTML = "";
+        return;
+    } else { 
+        if (window.XMLHttpRequest) {
+            // code for IE7+, Firefox, Chrome, Opera, Safari
+            xmlhttp = new XMLHttpRequest();
+        } else {
+            // code for IE6, IE5
+            xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+        }
+        xmlhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                document.getElementById("txtHint").innerHTML = this.responseText;
+            }
+        };
+        xmlhttp.open("GET","getcruise.php?q="+str,true);
+        xmlhttp.send();
+    }
+}
+</script>
+<link href="css/admin_style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="febe/style.css" type="text/css" media="screen" charset="utf-8">
+<script src="argiepolicarpio.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/application.js" type="text/javascript" charset="utf-8"></script>	
+<!--sa poip up-->
+<link href="src/facebox.css" media="screen" rel="stylesheet" type="text/css" />
+  
+<style>
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, td, th {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+th {text-align: left;}
+</style>
+</head>
+<body>
+<a href="dashboard.php" class="button button-primary "><span>Admin Panel</span></a>
+<form>
+<select name="users" onchange="showUser(this.value)">
+  <option value="">Select Cruise:</option>
+  <option value="1">Isle Of Skye</option>
+  <option value="2">The Minch</option>
+  <option value="3">Raasay</option>
+  <option value="4">Barra</option>
+  </select>
+</form>
+<br>
+
+<div id="txtHint"><b></b></div>
+
+</body>
+</html>
