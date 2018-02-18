@@ -37,10 +37,10 @@ function getUserLevel() {
 	return $userinfo;
 }
 function createConnection() {
-	$host="comp-hons.uhi.ac.uk";
-	$user="pe14002792";
-	$userpass='16051994';
-	$schema="pe14002792";
+	$host="00000000";
+	$user="00000000";
+	$userpass='00000000';
+	$schema="00000000";
 	$conn = new mysqli($host,$user,$userpass,$schema);
 	if(mysqli_connect_errno()) {
 		echo "Could not connect to database: ".mysqli_connect_errno();
